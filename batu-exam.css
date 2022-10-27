@@ -140,6 +140,7 @@ html{
     font-size: 30px;
     line-height: 36px;
     color: #fff;
+    width: 310px;
 
 }
 
@@ -242,8 +243,18 @@ html{
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+
+    box-sizing: border-box;
 
     cursor: pointer;
+
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.copyright-text:last-of-type{
+    border-right: none;
 }
 
 .copyright-text:hover {
@@ -256,7 +267,7 @@ html{
     margin: 0 auto;
     margin-top: 8px;
     margin-bottom: 31px;
-    gap: 35px;
+    /* gap: 35px; */
     padding-left: 151px;
     box-sizing: border-box;
 }
